@@ -62,7 +62,7 @@ document.getElementById("backTop").addEventListener("click", () => {
 
 /* ---------- SCROLL REVEAL ---------- */
 const revealEls = document.querySelectorAll(
-  ".section, .course-card, .teacher-card, .feature, .info-card, .gallery-item, .faq-item",
+  ".course-card, .teacher-card, .feature, .info-card, .faq-item"
 );
 revealEls.forEach((el) => el.classList.add("reveal"));
 
